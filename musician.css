@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Eagle;
+	src:url(assets/Eagle.otf);
+}
+body, #gray{
+	background-color:darkred;
+}
+h1{
+	color:#ffffff;
+	font-family:Eagle;
+	text-align:center;
+	font-size:80px;
+	margin-top:300px;
+}
+h3{
+    color:#ffffff;
+    font-family:Eagle;
+    text-align:center;
+    font-size:40px;
+    margin-top:-50px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+#guitar{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+#acdc{
+	position:absolute;
+	left:-20px;
+	top:0px;
+}
+#ledzeppelin{
+    position: absolute;
+    left:20px;
+    bottom:20px;
+}
+#rollingstones{
+    position: absolute;
+    right:20px;
+    bottom:20px;
+}
+#jimihendrix{
+    position: absolute;
+    right:42%;
+    top:20px;
+}

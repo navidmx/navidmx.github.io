@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Eagle;
+	src:url(../assets/Eagle.otf);
+}
+body, #gray{
+	background-color:darkred;
+}
+h1{
+	color:#ffffff;
+	font-family:Eagle;
+	text-align:center;
+	font-size:80px;
+	margin-top:300px;
+}
+h3{
+    color:#ffffff;
+    font-family:Eagle;
+    font-size:40px;
+}
+#albumtitle{
+    position: absolute;
+    left:83px;
+    top:90px;
+}
+#songtitle{
+    position: absolute;
+    left:485px;
+    top:90px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+#acdc{
+	position:absolute;
+	left:-20px;
+	top:0px;
+}
+#angusyoung{
+    position: absolute;
+    right:30px;
+    bottom:0px;
+}
+#favalbum{
+    position: absolute;
+    left:80px;
+    top:190px;
+}
+#favsongs{
+    position: absolute;
+    left:480px;
+    top:190px;
+}

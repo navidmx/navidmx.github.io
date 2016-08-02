@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Eagle;
+	src:url(../assets/Eagle.otf);
+}
+body, #gray{
+	background-color:darkred;
+}
+h1{
+	color:#ffffff;
+	font-family:Eagle;
+	text-align:center;
+	font-size:80px;
+	margin-top:300px;
+}
+h3{
+    color:#ffffff;
+    font-family:Eagle;
+    text-align: center;
+    font-size:40px;
+}
+#header{
+    position: absolute;
+    top:250px;
+    left:32%;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+#guitar{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+#gibsonsg{
+    position: absolute;
+    left:0px;
+    bottom:10px;
+}

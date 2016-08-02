@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Eagle;
+	src:url(assets/Eagle.otf);
+}
+body, #gray{
+	background-color:#cc6500;
+}
+h1{
+	color:#ffffff;
+	font-family:Eagle;
+	text-align:center;
+	font-size:80px;
+	margin-top:300px;
+}
+h3{
+    color:#ffffff;
+    font-family:Eagle;
+    text-align:center;
+    font-size:40px;
+    margin-top:-50px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+#batman{
+    position: absolute;
+    left: 40%;
+    top: 20px;
+}
+#bb8{
+	position:absolute;
+	left:-30px;
+	bottom:0px;
+}
+#ghostbusters{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+#marvel{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#deadpool{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+
+#tv{
+    position: absolute;
+    bottom:0px;
+    left:40%;
+}
