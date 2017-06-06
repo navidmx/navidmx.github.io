@@ -1,4 +1,4 @@
-var subtitles = ["Guitarist","Actor","Graphic Designer","Metalhead","Web Developer",];
+var subtitles = ["Guitarist","Slight Egomaniac","Graphic Designer","Metalhead","Web Developer",];
 var projects = [{title:"All Star Wars", desc:"Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.", img:"img/all-star-wars.png"},{title:"C. L. Halpern's Website",desc:"Developed for Christina Lewis Halpern, built to showcase her work and philanthropic efforts.",img:"img/christina-website.png"}]
 var count = 0;
 var tabOut = false;
@@ -19,19 +19,37 @@ $("#sidebarTab").hover(function(){
 });
 
 $("#sidebarTab").click(function(){
-    if (!tabOut){
-        $("#title").css("right","30%");
-        $("#sidebar").css("right",0);
-        $("#sidebarTab").css("right",(.3*window.innerWidth)-10);
-        document.getElementById("arrow").innerHTML="&gt;";
-        tabOut = true;
+    if (window.innerWidth > 600){
+        if (!tabOut){
+            $("#title").css("right","30%");
+            $("#sidebar").css("right",0);
+            $("#sidebarTab").css("right",(.3*window.innerWidth)-10);
+            document.getElementById("arrow").innerHTML="&gt;";
+            tabOut = true;
+        }
+        else if (tabOut){
+            $("#title").css("right","0");
+            $("#sidebar").css("right","-30%");
+            $("#sidebarTab").css("right","-10px");
+            document.getElementById("arrow").innerHTML="&lt;";
+            tabOut = false;
+        }
     }
-    else if (tabOut){
-        $("#title").css("right","0");
-        $("#sidebar").css("right","-30%");
-        $("#sidebarTab").css("right","-10px");
-        document.getElementById("arrow").innerHTML="&lt;";
-        tabOut = false;
+    else if (window.innerWidth <= 600){
+        if (!tabOut){
+            $("#title").css("bottom","30%");
+            $("#sidebar").css("bottom",0);
+            $("#sidebarTab").css("bottom",(.3*window.innerWidth)-10);
+            document.getElementById("arrow").innerHTML="&gt;";
+            tabOut = true;
+        }
+        else if (tabOut){
+            $("#title").css("bottom","0");
+            $("#sidebar").css("bottom","-30%");
+            $("#sidebarTab").css("bottom","-10px");
+            document.getElementById("arrow").innerHTML="&lt;";
+            tabOut = false;
+        }
     }
 });
 

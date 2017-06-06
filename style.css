@@ -6,15 +6,6 @@ html, body{
     overflow: hidden;
 }
 
-#background{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 #title{
     margin: auto;
     position: absolute;
@@ -97,13 +88,22 @@ a{
 
 #sidebarTab {
     position: absolute;
-    top: 50%; right: -10px;
-    transform: translateY(-50%);
+    left: 50%; bottom: -10px;
+    transform: translateX(-50%);
     background-color: #212121;
-    width: 40px;
-    height: 100px;
+    width: 100px;
+    height: 40px;
     border-radius: 10px;
     transition: all .5s;
+}
+
+@media (min-width: 700px){
+    #sidebarTab {
+        top: 50%; right: -10px;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 100px;
+    }
 }
 
 #sidebar{
@@ -116,6 +116,15 @@ a{
     transition: all .5s;
     text-align: center;
     overflow-y: auto;
+}
+
+@media (min-width: 700px){
+    #sidebar{
+        width: 30%;
+        height: 100%;
+        right: -30%;
+        top: 0;
+    }
 }
 
 #sidebarTab:hover{
