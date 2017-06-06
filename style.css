@@ -23,29 +23,30 @@ html, body{
 }
 
 #navbar{
-    font-size: 20px;
     color: #efefef;
-    white-space: nowrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.5;
     display: none;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 40px;
     color: white;
     font-family: 'Quicksand', sans-serif;
     font-weight: 200;
 }
 
 h2{
-    margin-top: -45px;
-    font-size: 40px;
+    margin-top: -20px;
+    font-size: 30px;
     color: #60d4ff;
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
 }
 
 h3{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     font-family: 'Quicksand', sans-serif;
     color: #60d4ff;
@@ -111,13 +112,23 @@ a{
 }
 
 @media (min-width: 700px){
+    h1{
+        line-height: 1.2;
+        font-size: 80px;
+    }
+    h2{
+        margin-top: -45px;
+        font-size: 40px;
+    }
+    h3{
+        font-size: 36px;
+    }
     #sidebarTab {
         top: 50%; left: inherit; bottom: inherit; right: -10px;
         transform: translateY(-50%);
         width: 40px;
         height: 100px;
     }
-    
     #sidebar{
         width: 30%;
         height: 100%;
