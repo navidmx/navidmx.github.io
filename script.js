@@ -19,7 +19,7 @@ $("#sidebarTab").hover(function(){
 });
 
 $("#sidebarTab").click(function(){
-    if (window.innerWidth > 600){
+    if (window.innerWidth > 700){
         if (!tabOut){
             $("#title").css("right","30%");
             $("#sidebar").css("right",0);
@@ -35,18 +35,20 @@ $("#sidebarTab").click(function(){
             tabOut = false;
         }
     }
-    else if (window.innerWidth <= 600){
+    else if (window.innerWidth <= 700){
         if (!tabOut){
-            $("#title").css("bottom","30%");
+            $("#title").css("transform","translateY(-100%)");
             $("#sidebar").css("bottom",0);
-            $("#sidebarTab").css("bottom",(.3*window.innerWidth)-10);
+            $("#sidebarTab").css("bottom",(.5*window.innerHeight)-10);
+            $("#navbar").fadeOut(500);
             document.getElementById("arrow").innerHTML="&gt;";
             tabOut = true;
         }
         else if (tabOut){
-            $("#title").css("bottom","0");
-            $("#sidebar").css("bottom","-30%");
+            $("#title").css("transform","translateY(-50%)");
+            $("#sidebar").css("bottom","-50%");
             $("#sidebarTab").css("bottom","-10px");
+            $("#navbar").fadeIn(500);
             document.getElementById("arrow").innerHTML="&lt;";
             tabOut = false;
         }

@@ -10,10 +10,12 @@ html, body{
     margin: auto;
     position: absolute;
     top: 50%; left: 0; right: 0; bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     transform: translateY(-50%);
     text-align: center;
     display: none;
-    transition: right .5s;
+    transition: transform .5s, right .5s;
 }
 
 #subtitle{
@@ -88,7 +90,7 @@ a{
 
 #sidebarTab {
     position: absolute;
-    left: 50%; bottom: -10px;
+    top: inherit; left: 50%; bottom: -10px; right: inherit;
     transform: translateX(-50%);
     background-color: #212121;
     width: 100px;
@@ -99,7 +101,7 @@ a{
 
 @media (min-width: 700px){
     #sidebarTab {
-        top: 50%; right: -10px;
+        top: 50%; left: inherit; bottom: inherit; right: -10px;
         transform: translateY(-50%);
         width: 40px;
         height: 100px;
@@ -108,11 +110,10 @@ a{
 
 #sidebar{
     position: absolute;
-    width: 30%;
-    height: 100%;
-    right: -30%;
+    height: 50%;
+    width: 100%;
+    top: inherit; left: 0; right: inherit; bottom: -50%;
     background-color: #212121;
-    top: 0;
     transition: all .5s;
     text-align: center;
     overflow-y: auto;
@@ -122,8 +123,7 @@ a{
     #sidebar{
         width: 30%;
         height: 100%;
-        right: -30%;
-        top: 0;
+        top: 0; left: inherit; right: -30%; bottom: inherit;
     }
 }
 
