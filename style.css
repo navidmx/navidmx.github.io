@@ -99,15 +99,6 @@ a{
     transition: all .5s;
 }
 
-@media (min-width: 700px){
-    #sidebarTab {
-        top: 50%; left: inherit; bottom: inherit; right: -10px;
-        transform: translateY(-50%);
-        width: 40px;
-        height: 100px;
-    }
-}
-
 #sidebar{
     position: absolute;
     height: 50%;
@@ -120,6 +111,13 @@ a{
 }
 
 @media (min-width: 700px){
+    #sidebarTab {
+        top: 50%; left: inherit; bottom: inherit; right: -10px;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 100px;
+    }
+    
     #sidebar{
         width: 30%;
         height: 100%;
