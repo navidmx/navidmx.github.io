@@ -37,18 +37,18 @@ $("#sidebarTab").click(function(){
     }
     else if (window.innerWidth <= 700){
         if (!tabOut){
-            $("#title").css("transform","translateY(-100%)");
+            $("#title").css("transform","translateY(-95%)");
             $("#sidebar").css("bottom",0);
             $("#sidebarTab").css("bottom",(.5*window.innerHeight)-10);
-            if (window.innerWidth < 650){$("#navbar").fadeOut(500);}
+            if (window.innerWidth < 360){$("#navbar").fadeOut(500);}
             document.getElementById("arrow").innerHTML="&gt;";
             tabOut = true;
         }
         else if (tabOut){
-            $("#title").css("transform","translateY(-50%)");
+            $("#title").css("transform","translateY(-70%)");
             $("#sidebar").css("bottom","-50%");
             $("#sidebarTab").css("bottom","-10px");
-            if (window.innerWidth < 650){$("#navbar").fadeIn(500);}
+            if (window.innerWidth < 360){$("#navbar").fadeIn(500);}
             document.getElementById("arrow").innerHTML="&lt;";
             tabOut = false;
         }

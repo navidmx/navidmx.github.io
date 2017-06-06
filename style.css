@@ -13,7 +13,7 @@ html, body{
     top: 50%; left: 0; right: 0; bottom: 0;
     padding-left: 40px;
     padding-right: 40px;
-    transform: translateY(-50%);
+    transform: translateY(-70%);
     text-align: center;
     display: none;
     transition: transform .5s, right .5s;
@@ -121,6 +121,9 @@ a{
     }
     h3{
         font-size: 36px;
+    }
+    #title{  
+        transform: translateY(-50%);
     }
     #sidebarTab {
         top: 50%; left: inherit; bottom: inherit; right: -10px;
