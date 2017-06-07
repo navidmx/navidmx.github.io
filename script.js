@@ -1,5 +1,5 @@
 var subtitles = ["Guitarist","Slight Egomaniac","Graphic Designer","Metalhead","Web Developer",];
-var projects = [{title:"All Star Wars", desc:"Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.", img:"img/all-star-wars.png"},{title:"C. L. Halpern's Website",desc:"Developed for Christina Lewis Halpern, built to showcase her work and philanthropic efforts.",img:"img/christina-website.png"}]
+var projects = [{title:"All Star Wars", desc:"Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.", img:"img/all-star-wars.png", link:"http://navidmx.herokuapp.com"},{title:"C. L. Halpern's Website", desc:"Developed for Christina Lewis Halpern, built to showcase her work and philanthropic efforts.", img:"img/christina-website.png", link:"http://christinalewis.com"}]
 var count = 0;
 var tabOut = false;
 
@@ -8,7 +8,7 @@ $( document ).ready(function() {
     $("#navbar").fadeIn(1000);
     changeSubtitle();
     for(var i=0; i<projects.length; i++){
-        $("#sidebar").append("<div class=\"project\"><img class=\"projectImg\" src="+projects[i].img+"><h4>"+projects[i].title+"</h4><h5>"+projects[i].desc+"</h5></div>"); 
+        $("#sidebar").append("<div class=\"project\"><a href="+projects[i].link+" target=\"_newtab\"><img class=\"projectImg\" src="+projects[i].img+"></a><h4>"+projects[i].title+"</h4><h5>"+projects[i].desc+"</h5></div>"); 
     };
 });
 
