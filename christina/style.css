@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #eaeaea;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #818181;
+}
+
+a {
+    text-decoration: none;
+    color: #009393;
+}
+
+a:hover {
+    color: #00baba;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.navbar {
+    font-size: 20px;
+    width: 700px;
+    transition: margin-top 3s;
+    margin-left: -16px;
+}
+
+#title {
+    margin-left: 5%;
+    position: absolute;
+}
+
+.nav-link {
+    padding-right: 3em;
+    transition: color .5s;
+}
+
+.nav-link:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.fa {
+    transition: color .2s;
+}
+
+#envelope-icon,
+#email-input,
+#sign-up {
+    padding: 9px 12px;
+    font-size: 18px;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 40px;
+}
+
+#envelope-icon {
+    font-size: 17px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    background-color: #eee;
+}
+
+#email-input {
+    width: 70%;
+    text-align: left;
+    margin-left: -5px;
+    margin-right: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #fff;
+    outline: none;
+}
+
+#sign-up {
+    width: 110px;
+}
+
+#sign-up:hover {
+    cursor: pointer;
+    transition: background-color .5s;
+    background-color: #e5e5e5;
+}

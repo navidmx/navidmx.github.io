@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "readmore-js",
+        "scope": null,
+        "escapedName": "readmore-js",
+        "name": "readmore-js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Navid"
+    ]
+  ],
+  "_from": "readmore-js@latest",
+  "_id": "readmore-js@2.1.0",
+  "_inCache": true,
+  "_location": "/readmore-js",
+  "_nodeVersion": "5.0.0",
+  "_npmUser": {
+    "name": "jedfoster",
+    "email": "jed@jedfoster.com"
+  },
+  "_npmVersion": "3.3.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "readmore-js",
+    "scope": null,
+    "escapedName": "readmore-js",
+    "name": "readmore-js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/readmore-js/-/readmore-js-2.1.0.tgz",
+  "_shasum": "0cf33cfc6f1f06af2a58e8e4fc4704db8c77fb57",
+  "_shrinkwrap": null,
+  "_spec": "readmore-js",
+  "_where": "/Users/Navid",
+  "author": {
+    "name": "Jed Foster",
+    "email": "jed@jedfoster.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jedfoster/Readmore.js/issues"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "description": "A lightweight jQuery plugin for collapsing and expanding long blocks of text with \"Read more\" and \"Close\" links.",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "0cf33cfc6f1f06af2a58e8e4fc4704db8c77fb57",
+    "tarball": "https://registry.npmjs.org/readmore-js/-/readmore-js-2.1.0.tgz"
+  },
+  "gitHead": "f0c27b356dea9b54968bc2734cb9be0695d20c1a",
+  "homepage": "https://github.com/jedfoster/Readmore.js",
+  "keywords": [
+    "css",
+    "jquery",
+    "readmore",
+    "expand",
+    "collapse"
+  ],
+  "license": "MIT",
+  "main": "readmore.js",
+  "maintainers": [
+    {
+      "name": "jedfoster",
+      "email": "jed@jedfoster.com"
+    }
+  ],
+  "name": "readmore-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedfoster/Readmore.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
+}

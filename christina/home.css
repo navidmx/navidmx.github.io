@@ -1,0 +1,35 @@
+body {
+    -webkit-transition: background-image 3s ease-in-out;
+    transition: background-image 3s ease-in-out;
+}
+
+.full-bg-img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url("img/background_medium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#title {
+    top: 25vh;
+    transition: top 3s;
+    width: 575px;
+}
+
+hr {
+    margin-top: 10%;
+}
+
+h2 {
+    position: absolute;
+    font-size: 28px;
+    margin-bottom: 30px;
+    top: 60px;
+}
+
+.navbar {
+    margin-top: 80px;
+}
