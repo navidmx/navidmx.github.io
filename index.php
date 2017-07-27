@@ -1,1 +1,50 @@
-<?php header( 'Location: /index.html' ) ;  ?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navid Mamoon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Navid Mamoon">
+    <meta name="description" content="Navid Mamoon's Personal Website. Front-End Web Developer, Freelancer, and Entrepreneur.">
+    <meta name="keywords" content="Navid,Mamoon,Freelancer,HTML,CSS,JavaScript,PHP,mySQL">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,200,300">
+    <script src="https://use.fontawesome.com/102d004b3a.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="title">
+            <h1>Navid Mamoon</h1>
+            <h2 id="subtitle">Web Developer</h2>
+            <div id="navbar">
+                <span class="navlink" id="email"><a href="mailto:navidmx@gmail.com?Subject=Hey%20Navid!" target="_newtab"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
+                <span class="navlink" id="github"><a href="http://www.github.com/navidmx" target="_newtab"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+                <span class="navlink" id="linkedin"><a href="http://www.linkedin.com/in/navidmx" target="_newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                <span class="navlink" id="facebook"><a href="http://www.facebook.com/navidmx" target="_newtab"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+                <span class="navlink" id="instagram"><a href="http://www.instagram.com/navidx" target="_newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+        <div id="sidebarTab-left" class="sidebarTab">
+            <p id="arrow-left" class="arrow"></p>
+        </div>
+        <div id="sidebarTab-right" class="sidebarTab">
+            <p id="arrow-right" class="arrow"></p>
+        </div>
+        <div id="sidebar-left" class="sidebar">
+            <h3>MY SKILLS</h3>
+            <div class="panel-group" id="accordion"></div>
+        </div>
+        <div id="sidebar-right" class="sidebar">
+            <h3>MY PROJECTS</h3>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
