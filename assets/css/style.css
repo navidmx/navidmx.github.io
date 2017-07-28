@@ -9,6 +9,10 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+ ::-webkit-scrollbar {
+    display: none;
+}
+
 #title {
     margin: auto;
     position: absolute;
@@ -83,17 +87,22 @@ a {
     font-size: 40px;
     padding-left: .5em;
     padding-right: .5em;
-    transition: color 1s;
 }
 
-#email {
+.navlink a {
+    transition: color .5s;
+}
+
+.navlink a:hover, .navlink a:focus {
+    color: #60d4ff !important;
+    cursor: pointer;
+    outline: 0;
+}
+
+#email,
+#resume {
     font-size: 36px;
     vertical-align: 2px;
-}
-
-.navlink:hover {
-    color: #60d4ff;
-    cursor: pointer;
 }
 
 .sidebar {
@@ -119,12 +128,25 @@ a {
     border-radius: 10px;
 }
 
+.sidebarTab:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+}
+
 .sidebar,
 .sidebarTab {
     position: absolute;
     top: inherit;
     transition: all .5s;
     background-color: #212121;
+}
+
+#sidebar-right {
+    left: 0;
+}
+
+#sidebar-left {
+    right: 0;
 }
 
 #sidebarTab-left {
@@ -143,11 +165,6 @@ a {
 #sidebar-right,
 #sidebarTab-right {
     right: inherit;
-}
-
-.sidebarTab:hover {
-    cursor: pointer;
-    background-color: #1a1a1a;
 }
 
 .arrow {
@@ -204,6 +221,11 @@ a {
     max-width: 120px;
 }
 
+#sidebar-left p {
+    color: #eaeaea;
+    font-size: 20px;
+}
+
 .panel {
     background-color: transparent;
 }
@@ -212,6 +234,20 @@ a {
     padding: 10px 5% 10px 5%;
     color: #d1d1d1;
     font-size: 18px;
+}
+
+.modal-body,
+.modal-header {
+    background-color: #1a1a1a;
+}
+
+.modal-body {
+    max-height: 85vh;
+}
+
+#resume-display {
+    width: 100%;
+    height: 80vh;
 }
 
 @media (min-width: 700px) {

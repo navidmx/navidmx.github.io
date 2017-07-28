@@ -16,30 +16,42 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div id="title">
-            <h1>Navid Mamoon</h1>
-            <h2 id="subtitle">Web Developer</h2>
-            <div id="navbar">
-                <span class="navlink" id="email"><a href="mailto:navidmx@gmail.com?Subject=Hey%20Navid!" target="_newtab"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
-                <span class="navlink" id="github"><a href="http://www.github.com/navidmx" target="_newtab"><i class="fa fa-github" aria-hidden="true"></i></a></span>
-                <span class="navlink" id="linkedin"><a href="http://www.linkedin.com/in/navidmx" target="_newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
-                <span class="navlink" id="facebook"><a href="http://www.facebook.com/navidmx" target="_newtab"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
-                <span class="navlink" id="instagram"><a href="http://www.instagram.com/navidx" target="_newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+    <div id="title">
+        <h1>Navid Mamoon</h1>
+        <h2 id="subtitle">Web Developer</h2>
+        <div id="navbar">
+            <span class="navlink" id="email"><a href="mailto:navidmx@gmail.com?Subject=Hey%20Navid!" target="_newtab"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="github"><a href="http://www.github.com/navidmx" target="_newtab"><i class="fa fa-github" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="linkedin"><a href="http://www.linkedin.com/in/navidmx" target="_newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="facebook"><a href="http://www.facebook.com/navidmx" target="_newtab"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="instagram"><a href="http://www.instagram.com/navidx" target="_newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="resume"><a href="#resumeModal" data-toggle="modal"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></span>
+        </div>
+    </div>
+    <div id="sidebarTab-left" class="sidebarTab">
+        <p id="arrow-left" class="arrow"></p>
+    </div>
+    <div id="sidebarTab-right" class="sidebarTab">
+        <p id="arrow-right" class="arrow"></p>
+    </div>
+    <div id="sidebar-left" class="sidebar">
+        <h3>MY SKILLS</h3>
+        <div class="panel-group" id="accordion"></div>
+    </div>
+    <div id="sidebar-right" class="sidebar">
+        <h3>MY PROJECTS</h3>
+    </div>
+    <div class="modal fade" id="resumeModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">MY RESUMÉ</h2>
+                </div>
+                <div class="modal-body">
+                    <embed id="resume-display" src="assets/resume/Resume.pdf" type="application/pdf">
+                </div>
             </div>
-        </div>
-        <div id="sidebarTab-left" class="sidebarTab">
-            <p id="arrow-left" class="arrow"></p>
-        </div>
-        <div id="sidebarTab-right" class="sidebarTab">
-            <p id="arrow-right" class="arrow"></p>
-        </div>
-        <div id="sidebar-left" class="sidebar">
-            <h3>MY SKILLS</h3>
-            <div class="panel-group" id="accordion"></div>
-        </div>
-        <div id="sidebar-right" class="sidebar">
-            <h3>MY PROJECTS</h3>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

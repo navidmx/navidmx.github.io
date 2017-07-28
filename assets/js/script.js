@@ -1,4 +1,4 @@
-var subtitles = ["Guitarist", "Slight Egomaniac", "Graphic Designer", "Freelancer", "Web Developer", "Instructor"];
+var subtitles = ["Guitarist", "Slight Egomaniac", "Graphic Designer", "Instructor", "Freelancer", "Web Developer"];
 
 var projects = [
     {
