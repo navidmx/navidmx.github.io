@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Navid Mamoon">
     <meta name="description" content="Navid Mamoon's Personal Website. Front-End Web Developer, Freelancer, and Entrepreneur.">
-    <meta name="keywords" content="Navid,Mamoon,Freelancer,HTML,CSS,JavaScript,PHP,mySQL">
+    <meta name="keywords" content="Navid,Mamoon,Freelancer,HTML,CSS,JavaScript,PHP,SQL">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,200,300">
     <script src="https://use.fontawesome.com/102d004b3a.js"></script>
 </head>
 
 <body>
+    <img id="bg-pic" src="">
     <div id="title">
         <h1>Navid Mamoon</h1>
         <h2 id="subtitle">Web Developer</h2>
@@ -56,7 +57,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/script.min.js"></script>
 </body>
 
 </html>

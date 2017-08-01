@@ -5,7 +5,7 @@ var projects = [
         title: "C. L. Halpern's Website",
         desc: "Developed for Christina Lewis Halpern, founder and Executive Director of All Star Code, built to showcase her work and philanthropic efforts.",
         img: "christina-website.png",
-        link: "http://christinalewis.com"
+        link: "christina/index.php"
     },
     {
         title: "All Star Wars",
@@ -49,6 +49,7 @@ var tabOutRight = false;
 $(document).ready(function () {
     $("#title").fadeIn(1000);
     $("#navbar").fadeIn(2000);
+    $("#bg-pic").attr("src","../assets/img/backgrounds/"+(Math.floor(Math.random()*19)+1)+".jpg");
     changeSubtitle();
     for (var i = 0; i < projects.length; i++) {
         $("#sidebar-right").append("<div class='project'><a href=" + projects[i].link + " target='_newtab'><img class='projectImg' src='/assets/img/projects/" + projects[i].img + "'></a><h4>" + projects[i].title + "</h4><h5>" + projects[i].desc + "</h5></div>");

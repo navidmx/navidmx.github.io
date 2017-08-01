@@ -3,7 +3,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #363636;
+    background-color: #333333;
     overflow: hidden;
     position: fixed;
     font-family: 'Quicksand', sans-serif;
@@ -11,6 +11,12 @@ body {
 
  ::-webkit-scrollbar {
     display: none;
+}
+
+#bg-pic {
+    width: 100%;
+    filter: grayscale(50%);
+    opacity: .30;
 }
 
 #title {
@@ -93,7 +99,8 @@ a {
     transition: color .5s;
 }
 
-.navlink a:hover, .navlink a:focus {
+.navlink a:hover,
+.navlink a:focus {
     color: #60d4ff !important;
     cursor: pointer;
     outline: 0;
@@ -192,6 +199,11 @@ a {
 
 #sidebar-left .projectImg {
     width: 40%;
+    transition: all .5s ease;
+}
+
+#sidebar-left .projectImg:hover {
+    transform: rotate(1deg);
 }
 
 #sidebar-left h5 {
