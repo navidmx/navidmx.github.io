@@ -8,6 +8,12 @@ var projects = [
         link: "christina/index.php"
     },
     {
+        title: "College Organizer",
+        desc: "A personal project, designed to automate a large portion of the tedious college researching process, using College Scorecard API and Firebase.",
+        img: "college-organizer.png",
+        link: "colleges/index.html"
+    },
+    {
         title: "All Star Wars",
         desc: "Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.",
         img: "all-star-wars.png",

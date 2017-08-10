@@ -3,16 +3,22 @@
 
 <head>
     <title>Navid Mamoon</title>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Navid Mamoon">
     <meta name="description" content="Navid Mamoon's Personal Website. Front-End Web Developer, Freelancer, and Entrepreneur.">
     <meta name="keywords" content="Navid,Mamoon,Freelancer,HTML,CSS,JavaScript,PHP,SQL">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <!-- Libraries -->
+    <script src="https://use.fontawesome.com/102d004b3a.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,200,300">
-    <script src="https://use.fontawesome.com/102d004b3a.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
 </head>
 
 <body>
