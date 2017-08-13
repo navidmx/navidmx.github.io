@@ -52,10 +52,13 @@ var count = 0;
 var tabOutLeft = false;
 var tabOutRight = false;
 
+particlesJS.load('particles', 'assets/lib/particles.json', function() {
+});
+
 $(document).ready(function () {
     $("#title").fadeIn(1000);
     $("#navbar").fadeIn(2000);
-    $("#bg-pic").attr("src","assets/img/backgrounds/"+(Math.floor(Math.random()*19)+1)+".jpg");
+    //$("#bg-pic").attr("src","assets/img/backgrounds/"+(Math.floor(Math.random()*18)+1)+".jpg");
     changeSubtitle();
     for (var i = 0; i < projects.length; i++) {
         $("#sidebar-right").append("<div class='project'><a href=" + projects[i].link + " target='_newtab'><img class='projectImg' src='assets/img/projects/" + projects[i].img + "'></a><h4>" + projects[i].title + "</h4><h5>" + projects[i].desc + "</h5></div>");

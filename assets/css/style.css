@@ -14,9 +14,14 @@ body {
 }
 
 #bg-pic {
+    position: absolute;
     object-fit: cover;
     filter: grayscale(50%);
     opacity: .30;
+}
+
+#particles {
+    height: 100%;
 }
 
 #title {
