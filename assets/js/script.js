@@ -14,6 +14,12 @@ var projects = [
         link: "colleges"
     },
     {
+        title: "Centre News",
+        desc: "Submission for the 2017 Congressional App Challenge, combatting Media Bias by pulling articles from many news sources on the same page.",
+        img: "centre-news.png",
+        link: "news"
+    },
+    {
         title: "All Star Wars",
         desc: "Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.",
         img: "all-star-wars.png",
