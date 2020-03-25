@@ -7,20 +7,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Navid Mamoon">
-    <meta name="description" content="Navid Mamoon's Personal Website. Front-End Web Developer, Freelancer, and Entrepreneur.">
+    <meta name="description" content="Navid Mamoon's Personal Website. Front-End Web Developer, Freelancer, and Musician.">
     <meta name="keywords" content="Navid,Mamoon,Freelancer,HTML,CSS,JavaScript,PHP,SQL">
     <meta name="author" content="Navid Mamoon">
     <meta name="robots" content="index, follow" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Navid Mamoon">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="//www.navidmx.com/assets/img/opengraph.png">
+    <meta property='og:url' content='//www.navidmx.com'>
+    <meta property="og:description" content="Navid Mamoon's Personal Website. Web Developer, Graphic Designer, and Musician.">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Libraries -->
-    <script src="https://use.fontawesome.com/102d004b3a.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,200,300">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -33,16 +38,18 @@
         <div id="navbar">
             <span class="navlink" id="email"><a href="mailto:navidmx@gmail.com?Subject=Hey%20Navid!" target="_newtab"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></span>
             <span class="navlink" id="github"><a href="http://www.github.com/navidmx" target="_newtab"><i class="fa fa-github" aria-hidden="true"></i></a></span>
-            <span class="navlink" id="linkedin"><a href="http://www.linkedin.com/in/navidmx" target="_newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="linkedin"><a href="http://www.linkedin.com/in/navid-mamoon" target="_newtab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
             <span class="navlink" id="facebook"><a href="http://www.facebook.com/navidmx" target="_newtab"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></span>
-            <span class="navlink" id="instagram"><a href="http://www.instagram.com/navidx" target="_newtab"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+            <span class="navlink" id="calendar"><a href="http://www.twitter.com/navidmx" target="_newtab"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
             <span class="navlink" id="resume"><a href="#resumeModal" data-toggle="modal"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></span>
         </div>
     </div>
     <div id="sidebarTab-left" class="sidebarTab">
+        <h5>SKILLS</h5>
         <p id="arrow-left" class="arrow"></p>
     </div>
     <div id="sidebarTab-right" class="sidebarTab">
+        <h5>PORTFOLIO</h5>
         <p id="arrow-right" class="arrow"></p>
     </div>
     <div id="sidebar-left" class="sidebar">
@@ -50,7 +57,7 @@
         <div class="panel-group" id="accordion"></div>
     </div>
     <div id="sidebar-right" class="sidebar">
-        <h3>MY PROJECTS</h3>
+        <h3>PORTFOLIO</h3>
     </div>
     <div class="modal fade" id="resumeModal" role="dialog">
         <div class="modal-dialog modal-lg">
@@ -60,7 +67,21 @@
                     <h2 class="modal-title">MY RESUMÉ</h2>
                 </div>
                 <div class="modal-body">
-                    <embed id="resume-display" src="assets/resume/Resume.pdf" type="application/pdf">
+                    <embed id="resume-display" src="assets/resume/Resume%20-%20Navid%20Mamoon.pdf" type="application/pdf">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="calendarModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">MY CALENDAR</h2>
+                    <h5 style="margin: 10px 0">Want to grab a coffee or hop on the phone? Just <a href="mailto:navidmx@gmail.com?Subject=Hey%20Navid!" target="_newtab">shoot me an email</a> with any of the times below.</h5>
+                </div>
+                <div class="modal-body" style="text-align: center;">
+                    <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=nmamoon%40andrew.cmu.edu&amp;color=%230e61b9&amp;src=andrew.cmu.edu_hjq4ept32mktd9dovoqb30af74%40group.calendar.google.com&amp;color=%232F6309&amp;src=andrew.cmu.edu_a2o4ph816md9jcf0a5n71tmmeo%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
@@ -80,13 +101,13 @@
         })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-104695137-1', 'auto');
         ga('send', 'pageview');
-
     </script>
     <!--Libraries-->
+    <script src="https://use.fontawesome.com/102d004b3a.js"></script>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

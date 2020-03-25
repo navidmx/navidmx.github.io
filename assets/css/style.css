@@ -9,15 +9,17 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
 }
 
 #bg-pic {
+    display: none;
     position: absolute;
     object-fit: cover;
     filter: grayscale(50%);
     opacity: .30;
+    width: 100%;
 }
 
 #particles {
@@ -38,8 +40,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0 40px;
     transform: translateY(-70%);
     text-align: center;
     display: none;
@@ -48,7 +49,7 @@ body {
 }
 
 #subtitle {
-    transition: all .5s;
+    display: none;
 }
 
 #navbar {
@@ -87,6 +88,18 @@ h5 {
     color: #d1d1d1;
 }
 
+h5 a {
+    color: #38afdb;
+}
+
+h5 a:hover,
+h5 a:focus {
+    color: #60d4ff;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+
 h1,
 h4 {
     color: white;
@@ -99,6 +112,7 @@ h3 {
 
 a {
     text-decoration: none;
+    transition: color .5s;
     color: inherit;
 }
 
@@ -120,6 +134,7 @@ a {
 }
 
 #email,
+#calendar,
 #resume {
     font-size: 36px;
     vertical-align: 2px;
@@ -191,21 +206,18 @@ a {
 
 .arrow {
     color: white;
-    margin-top: 33px;
-    font-size: 29px;
-}
-
-#arrow-right {
-    margin-left: 5px;
-}
-
-#arrow-left {
-    margin-left: 13px;
+    font-size: 24px;
+    margin: -5px 0;
+    text-align: center;
 }
 
 .project {
     margin: 30px 0 30px 5%;
     width: 90%;
+}
+
+.sidebarTab h5 {
+    display: none;
 }
 
 #sidebar-right .projectImg {
@@ -218,7 +230,7 @@ a {
 }
 
 #sidebar-left .projectImg:hover {
-    transform: rotate(1deg);
+    transform: rotate(3deg);
 }
 
 #sidebar-left h5 {
@@ -229,7 +241,7 @@ a {
 
 #sidebar-right .project {
     padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #444;
 }
 
 #sidebar-right .projectImg:hover {
@@ -313,9 +325,19 @@ a {
         left: -10px;
         transform: translateY(-50%);
     }
+    #sidebarTab-right h5 {
+        position: absolute;
+        margin: 40px -70px;
+        transform: rotate(270deg);
+    }
     #sidebarTab-right {
         right: -10px;
         transform: translateY(-50%);
+    }
+    #sidebarTab-left h5 {
+        position: absolute;
+        margin: 40px 30px;
+        transform:  rotate(90deg);
     }
     .sidebar,
     .sidebarTab {
@@ -328,5 +350,8 @@ a {
     #sidebar-right,
     #sidebarTab-right {
         left: inherit;
+    }
+    .arrow {
+        margin: 33px -5px;
     }
 }

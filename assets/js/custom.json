@@ -1,0 +1,90 @@
+{
+    "subtitles": [
+        "Actor",
+        "Instructor",
+        "Guitarist",
+        "Freelancer",
+        "Slight Egomaniac",
+        "Graphic Designer",
+        "Web Developer"
+    ],
+    "projects": [
+        {
+            "title": "COVID-19 Visualizer",
+            "desc": "An interactive coronavirus tracker used by over 25 million people, placing data from Worldometer on a Three.js globe.",
+            "img": "covidvisualizer.png",
+            "link": "https://covidvisualizer.com"
+        },
+        {
+            "title": "AccessIDE",
+            "desc": "An accessible and time-saving online IDE utilizing voice input and output along with powerful keyboard shortcuts. On GitHub.",
+            "img": "access-ide.png",
+            "link": "https://github.com/navidmx/AccessIDE",
+            "award": "Featured in Bloomberg, Finalist at TartanHacks 2019"
+        },
+        {
+            "title": "PAETHOS",
+            "desc": "A virtual reality experience that utilizes EEG sensors to turn brainwaves into an interactive and educational art piece.",
+            "img": "paethos.png",
+            "link": "https://github.com/navidmx/Paethos"
+        },
+        {
+            "title": "Rana Abdelhamid's Website",
+            "desc": "Developed for Rana Abdelhamid: human rights organizer, black belt, and entrepreneur. Built to increase her social presence and promote her work.",
+            "img": "rana-website.png",
+            "link": "http://ranaabdelhamid.com"
+        },
+        {
+            "title": "Centre News",
+            "desc": "A responsive web app to combat polarizing media bias by presenting a variety of politically diverse news sources on the same website.",
+            "img": "centre-news.png",
+            "link": "https://navidmx.com/news",
+            "award": "Winner of 2017 Congressional App Challenge/nlNew York 12th District"
+        },
+        {
+            "title": "College Organizer",
+            "desc": "A personal project, designed to automate a large portion of the tedious college researching process, using College Scorecard API and Firebase.",
+            "img": "college-organizer.png",
+            "link": "https://navidmx.com/college"
+        },
+        {
+            "title": "Fruit Sensei",
+            "desc": "Developed for StuyHacks, a parody of the famous Fruit Ninja that connects your phone to your display, in an attempt to slice as many fruits as possible.",
+            "img": "fruit-sensei.png",
+            "link": "http://fruitsensei.tech",
+            "award": "Winner at StuyHacks 2017/nl'Best Game' Category"
+        },
+        {
+            "title": "All Star Wars",
+            "desc": "Developed for All Star Code, a (virtual reality supported) game that connects your phone to your display, allowing you to wield a lightsaber.",
+            "img": "all-star-wars.png",
+            "link": "http://navidmx.herokuapp.com"
+        }
+    ],
+    "skills": [
+        {
+            "name": "html",
+            "desc": "The stucture and backbone of every website, I have thorough experience with HTML 5, and it's integration with CSS, Search Engine Optimization through meta data, etc."
+        },
+        {
+            "name": "css",
+            "desc": "The style and design behind most of the internet, CSS 3 is my medium for creativity in websites, along with mobile readiness through media queries and libraries such as Bootstrap."
+        },
+        {
+            "name": "js",
+            "desc": "My programming language of choice, I have thorough experience with JavaScript, and am learning more efficient techniques through ES 6. Libraries I frequent include jQuery, React.js, and node.js."
+        },
+        {
+            "name": "php",
+            "desc": "The server-side language behind most of my programs, I use PHP to provide backend for connecting to databases, scanning local files, etc."
+        },
+        {
+            "name": "mysql",
+            "desc": "The relational database management system behind many of my projects, I have thorough experience querying and sorting through SQL."
+        },
+        {
+            "name": "editors",
+            "desc": "Two of the most robust and widely used media editors of all time, I have decent experience with Photoshop and Illustrator, from photo editing and typography to optimizing media for web development."
+        }
+    ]
+}
